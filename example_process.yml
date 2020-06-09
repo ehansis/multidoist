@@ -1,0 +1,16 @@
+todoist_project: "Inbox"
+process_name: "Test process"
+target_time: "Aug 20 2021 9:24"
+steps:
+  - name: A This has no preparation tasks, takes 45 minutes
+    duration: 45
+  - name: B This has two preparation tasks C and D, takes 30 minutes itself
+    duration: 30
+    steps:
+      - name: C This has to happen
+        duration: 120
+      - name: D This has to happen also, but there is a preparation step E
+        duration: 60
+        steps:
+          - name: E This needs to be done early
+            duration: 30
