@@ -13,6 +13,8 @@ These tasks are saved to Todoist, via the API.
 Tasks are added to the project set as ``todoist_project`` in the YML file (see [example file](example_process.yml)).
 Inside the project, the script adds a new section named like the ``process_name`` given in the YML file.
 All tasks are added to that section, with their due date and time set (start time of each task).
+Each defined process step results in a Todoist task, with its given ``name``.
+Step ``duration`` is given in minutes.
 
 The script also adds reminders, set to 5 minutes before each tasks due date and time.
 This means that you need a Todoist premium account to run it.
@@ -62,4 +64,22 @@ python multidoist.py --run <process definition.yml>
 
 ## YML process spec
 
-Study the code, study the example process... Good luck! :-) 
+Study the code, study the example processes... Good luck! :-) 
+
+There is a second example, representing a real sourdough bread baking session, in ``whole_wheat_bread.yml``.
+Planning this with ``multidoist`` yields the following output:
+```
+Parsing whole_wheat_bread.yml...
+
+Planning to finish on 2020-06-10 15:30:00
+
+Parsed steps:
+        2020-06-09 13:00:00: Mix sourdough, ferment 18 hours at room temperature
+        2020-06-10 07:00:00: Mix autolysis dough (15 min prep), let sit for 30 minutse
+        2020-06-10 07:45:00: Knead main dough (30 min), 3 hours intermediate proofing
+        2020-06-10 11:15:00: Shape bread (15 min), 3 hours final proofing
+        2020-06-10 14:00:00: Pre-heat oven
+        2020-06-10 14:30:00: Bake for 60 minutes
+
+Just planning, not creating the tasks...
+```
