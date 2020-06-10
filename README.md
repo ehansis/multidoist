@@ -1,6 +1,8 @@
 # multidoist
 Schedule and plan multiple todoist tasks for long-running multi-step processes.
 
+**Disclaimer:** This is a quick, hacky script. Use at your own risk.
+
 ## What for?
 This is ideal for your favourite Covid-19 lockdown activity: bread baking!
 Good bread requires multiple steps with long wait times in-between.
