@@ -8,6 +8,7 @@ import datetime
 
 
 def get_param(d, key, label="specification"):
+    """Retrieve a value from a dictionary, exit if not present"""
     if key not in d:
         click.echo(f"\tCould not find field {key} in {label}")
         exit(1)
@@ -15,6 +16,7 @@ def get_param(d, key, label="specification"):
 
 
 def parse_steps(steps, target_time):
+    """Recursive parsing of process steps, returns list of steps"""
     out = []
     for step in steps:
         name = get_param(step, "name", label="step")
@@ -89,6 +91,7 @@ def plan(yml_file, run):
             print("\n\t", str(item))
             api.commit()
 
+            # comment out the following block in order not to create reminders
             reminder = api.reminders.add(
                 item_id=item["id"],
                 service="push",
