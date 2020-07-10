@@ -1,0 +1,25 @@
+todoist_project: "Backen"
+process_name: "Baguettes [https://www.ploetzblog.de/2020/04/25/franzoesisches-landbrot-als-boule/]"
+target_time: "Jun 20 2020, 15:30"
+steps:
+  - name: Backen
+    duration: 45
+    steps:
+      - name: Vorheizen, Blech mit Wasser rein
+        duration: 30
+      - name: Formen (15 min), reifen bei Raumtemp (60 min)
+        duration: 75
+        steps:
+          - name: Vorformen (15 min), ruhen bei Raumtemp (60 min)
+            duration: 75
+            steps:
+            - name: Hauptteig kneten (30 min), Stockgare (3.5 h) - dehnen/falten!
+              duration: 240
+              steps:
+                - name: Autolyseteig, Ruhe (30 min bei 30 Grad)
+                  duration: 45
+                  steps:
+                    - name: Sauerteig Ruhe im KS (10 h)
+                      duration: 600
+                    - name: Vorteig, Ruhe im KS (24 h)
+                      duration: 1440

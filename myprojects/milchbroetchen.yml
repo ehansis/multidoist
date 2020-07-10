@@ -1,0 +1,20 @@
+todoist_project: "Backen"
+process_name: "Milchbrötchen (Buch 1, S. 100)"
+target_time: "Jul 5 2020, 07:30"
+steps:
+  - name: Ei, Backen
+    duration: 30
+    steps:
+      - name: Vorheizen
+        duration: 20
+      - name: Teiglinge aus dem Kühlschrank, Ei, akklimatisieren
+        duration: 30
+        steps:
+          - name: Teiglinge formen, Ei, Stückgare im Kühlschrank
+            duration: 750
+            steps:
+              - name: Hauptteig kneten, Gare
+                duration: 90
+                steps:
+                  - name: Mehlkochstück, auf 8 Grad abkühlen
+                    duration: 300

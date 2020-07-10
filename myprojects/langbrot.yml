@@ -1,0 +1,17 @@
+todoist_project: "Backen"
+process_name: "Langbrot (Buch Nr. 1, S. 115)"
+target_time: "Jun 22 2020, 14:45"
+steps:
+  - name: Einschneiden, Backen
+    duration: 50
+    steps:
+      - name: Vorheizen, Blech mit Wasser rein
+        duration: 30
+      - name: Formen (15 min), reifen bei RT (2 h)
+        duration: 135
+        steps:
+          - name: Hauptteig kneten (30 min), Stockgare bei RT (2 h, nach 1 h falten)
+            duration: 150
+            steps:
+            - name: Poolish mischen, Sauerteig mischen, Reife bei RT (18 h)
+              duration: 1080

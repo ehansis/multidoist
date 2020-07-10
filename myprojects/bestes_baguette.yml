@@ -1,0 +1,23 @@
+todoist_project: "Backen"
+process_name: "Baguettes [https://www.ploetzblog.de/2013/02/16/leserwunsch-frankreichs-bestes-baguette-1995-und-2006/]"
+target_time: "Jul 13 2020, 17:00"
+steps:
+  - name: Backen
+    duration: 25
+    steps:
+      - name: Vorheizen, Blech mit Wasser rein
+        duration: 30
+      - name: Formen (15 min), reifen bei 24 Grad (30 min)
+        duration: 45
+        steps:
+          - name: Vorformen (15 min), ruhen bei Raumtemp (15 min)
+            duration: 30
+            steps:
+            - name: Gare im Kühlschrank (41h!)
+              duration: 2460
+              steps:
+                - name: Teig mischen (15 min), 60 min Ruhe bei 24 Grad, alle 20 min falten
+                  duration: 75
+                  steps:
+                    - name: Trockenhefe einweichen
+                      duration: 10
