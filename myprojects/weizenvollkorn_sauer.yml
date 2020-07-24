@@ -1,6 +1,6 @@
 todoist_project: "Backen"
 process_name: "Weizenvollkorn Sauer (Buch 2, S. 54)"
-target_time: "Jul 04 2020, 15:30"
+target_time: "Jul 24 2020, 15:30"
 steps:
   - name: Backen
     duration: 60
@@ -8,13 +8,13 @@ steps:
       - name: Vorheizen, Topf rein
         duration: 30
       - name: Formen, Stückgare
-        duration: 195
+        duration: 125
         steps:
           - name: Hauptteig kneten, Stockgare
-            duration: 210
+            duration: 135
             steps:
               - name: Autolyseteig, Ruhe
-                duration: 45
+                duration: 35
                 steps:
-                  - name: Sauerteig, 18 h Ruhe bei 20 Grad
-                    duration: 1080
+                  - name: Sauerteig, 16 h Ruhe bei 20 Grad
+                    duration: 960

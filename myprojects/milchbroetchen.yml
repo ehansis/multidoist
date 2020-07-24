@@ -1,6 +1,6 @@
 todoist_project: "Backen"
 process_name: "Milchbrötchen (Buch 1, S. 100)"
-target_time: "Jul 5 2020, 07:30"
+target_time: "Jul 26 2020, 07:30"
 steps:
   - name: Ei, Backen
     duration: 30

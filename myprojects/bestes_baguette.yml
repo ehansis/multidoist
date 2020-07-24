@@ -1,6 +1,6 @@
 todoist_project: "Backen"
 process_name: "Baguettes [https://www.ploetzblog.de/2013/02/16/leserwunsch-frankreichs-bestes-baguette-1995-und-2006/]"
-target_time: "Jul 13 2020, 17:00"
+target_time: "Jul 19 2020, 16:00"
 steps:
   - name: Backen
     duration: 25

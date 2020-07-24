@@ -1,6 +1,6 @@
 todoist_project: "Backen"
-process_name: "Weizenvollkorn Sauer (Buch 2, S. 54)"
-target_time: "Jun 15 2020, 15:30"
+process_name: "Dinkelmisch Sauer (Buch 2, S. 118)"
+target_time: "Jul 11 2020, 15:30"
 steps:
   - name: Backen
     duration: 60
@@ -10,10 +10,10 @@ steps:
       - name: Formen (15 min), Stückgare (2.5 h)
         duration: 165
         steps:
-          - name: Hauptteig kneten (30 min), Stockgare (2.5 h)
+          - name: Hauptteig kneten (30 min, +Hefe!), Stockgare (2.5 h)
             duration: 180
             steps:
               - name: Autolyseteig, Ruhe (30 min)
                 duration: 45
-              - name: Sauerteig, 11 h (10-12) Ruhe bei 30 Grad
-                duration: 660
+              - name: Sauerteig, 16 h Ruhe bei 24 Grad
+                duration: 960
